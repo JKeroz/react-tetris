@@ -12,9 +12,11 @@ import { useInterval} from '../hooks/useInterval';
 import { useGameStatus} from '../hooks/useGameStatus';
 
 // Components
+import Next from './Next';
 import Stage from './Stage';
 import Display from './Display';
 import StartButton from './StartButton';
+import { useNext } from '../hooks/useNext';
 
 const Tetris = () => {
   const [dropTime, setDropTime] = useState(null);
